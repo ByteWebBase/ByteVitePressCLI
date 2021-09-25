@@ -1,0 +1,44 @@
+{
+    "name": "byte-vitepress-cli",
+    "version": "1.0.0",
+    "description": "A lightweight CLI for VitePress project, What is distinctive is that supports ByteDance's InspireCloud page deployment",
+    "main": "./bin/index.js",
+    "bin": {
+        "vite-test": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "YoungX99/byte-vitepress-cli",
+    "bugs": "https://github.com/YoungX99/byte-vitepress-cli/issues",
+    "keywords": [
+        "vitepress",
+        "vite",
+        "cli",
+        "vitepress-cli",
+        "starter",
+        "byte-vitepress-starter",
+        "creator",
+        "byte-vitepress-creator"
+    ],
+    "author": "YoungX99",
+    "homepage": "https://github.com/YoungX99/byte-vitepress-cli",
+    "license": "MIT",
+    "dependencies": {
+        "adm-zip": "^0.5.5",
+        "axios": "^0.21.1",
+        "chalk": "^3.0.0",
+        "cheerio": "^1.0.0-rc.10",
+        "commander": "^4.1.1",
+        "download": "^8.0.0",
+        "form-data": "^4.0.0",
+        "fs-extra": "^9.0.1",
+        "log-symbols": "^3.0.0",
+        "ora": "^5.1.0",
+        "prettier": "^2.4.1",
+        "update-notifier": "^4.1.1"
+    },
+    "engines": {
+        "node": ">=8.6"
+    }
+}
